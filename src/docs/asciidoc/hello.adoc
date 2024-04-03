@@ -1,0 +1,15 @@
+= Hello Controller
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:seclinks:
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+[[hello-controller-test]]
+=== getExampleAll
+include::{snippets}/hello-controller-test/hello/http-request.adoc[]
+include::{snippets}/hello-controller-test/hello/http-response.adoc[]

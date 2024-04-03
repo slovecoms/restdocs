@@ -1,0 +1,31 @@
+= Spring REST Docs Test
+:doctype: book
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:seclinks:
+
+ifndef::snippets[]
+:snippets: ./build/generated-snippets
+endif::[]
+
+
+[[CRUD]]
+== CRUD API
+
+[[crud-controller-test]]
+=== getExampleAll
+include::{snippets}/crud-controller-test/read/http-request.adoc[]
+include::{snippets}/crud-controller-test/read/http-response.adoc[]
+
+
+[[crud-controller-test]]
+=== getExample
+include::{snippets}/crud-controller-test/get-example/http-request.adoc[]
+include::{snippets}/crud-controller-test/get-example/http-response.adoc[]
+
+[[crud-controller-test]]
+=== setExample
+include::{snippets}/crud-controller-test/set-example/http-request.adoc[]
+include::{snippets}/crud-controller-test/set-example/http-response.adoc[]
+
