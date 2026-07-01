@@ -8,7 +8,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/restdocs?characterEncoding=UTF-8&serverTimezone=Asia/Seoul&allowMultiQueries=true&zeroDateTimeBehavior=convertToNull
     username: root
-    password: petfins0905!
+    password: shs920526
 
     hikari:
       pool-name: hikari-cp
